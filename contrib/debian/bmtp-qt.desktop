@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bmtp
+Comment=Bmtp P2P Cryptocurrency
+Comment[fr]=Bmtp, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bmtp, eşten eşe kriptografik sanal para birimi
+Exec=bmtp-qt %u
+Terminal=false
+Type=Application
+Icon=bmtp128
+MimeType=x-scheme-handler/bmtp;
+Categories=Office;Finance;

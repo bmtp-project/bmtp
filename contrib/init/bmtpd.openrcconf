@@ -1,0 +1,26 @@
+# /etc/conf.d/bmtpd: config file for /etc/init.d/bmtpd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bmtp/bmtp.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bmtpd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bmtpd.pid"
+
+# Where to write bmtpd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bmtpd"
+
+# User and group to own bmtpd process
+#BITCOIND_USER="bmtp"
+#BITCOIND_GROUP="bmtp"
+
+# Path to bmtpd executable
+#BITCOIND_BIN="/usr/bin/bmtpd"
+
+# Nice value to run bmtpd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,26 @@
+[Unit]
+Description=BMTP's distributed currency daemon
+After=network.target
+
+[Service]
+User=bmtp
+Group=bmtp
+
+Type=forking
+PIDFile=/var/lib/bmtpd/bmtpd.pid
+
+ExecStart=/usr/bin/bmtpd -daemon -pid=/var/lib/bmtpd/bmtpd.pid \
+          -conf=/etc/bmtp/bmtp.conf -datadir=/var/lib/bmtpd
+
+ExecStop=-/usr/bin/bmtp-cli -conf=/etc/bmtp/bmtp.conf \
+         -datadir=/var/lib/bmtpd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
