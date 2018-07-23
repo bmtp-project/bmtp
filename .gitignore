@@ -123,3 +123,5 @@ qa/pull-tester/test.*/*
 /nbproject/
 
 contrib/seeds/*.txt
+src/leveldb/build_config.mk
+
