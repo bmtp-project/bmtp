@@ -16,6 +16,7 @@ Precompiled binary wallets for various OS, can be downloaded here [BMTP Releases
 If you want to compile the wallet yourself, all the necessary documentation is in the [doc](https://github.com/bmtp-project/bmtp/tree/master/doc) folder
 
 We recommend using a special script to install the Masternode. [Install MN script](https://github.com/bmtp-project/bmtp-install)
+
 **Note**: *You can use several Masternodes on one Linux VPS. Each of them should use different P2P and RCP ports, as well as various data dirs. To install the second and subsequent Masternode on the same server, you need manual install and configure it.*
 
 ### Coin Specs
