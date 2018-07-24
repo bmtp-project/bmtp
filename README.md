@@ -12,14 +12,11 @@ BMTP is a cutting edge cryptocurrency, with many features not available in most 
 
 More information at [bmtpcoin.info](http://www.bmtpcoin.info)
 
-We recommend using a special script to install the wizards.[Install MN script](https://github.com/bmtp-project/bmtp-install)
-
-Note: You can use several Masternodes on one Linux VPS. Each of them should use different P2P and RCP ports, as well as various data dirs. To install the second and subsequent Masternode on the same server, you need manual install and configure it.
-
 Precompiled binary wallets for various OS, can be downloaded here [BMTP Releases](https://github.com/bmtp-project/bmtp/releases)
-
 If you want to compile the wallet yourself, all the necessary documentation is in the [doc](https://github.com/bmtp-project/bmtp/tree/master/doc) folder
 
+We recommend using a special script to install the Masternode. [Install MN script](https://github.com/bmtp-project/bmtp-install)
+**Note**: *You can use several Masternodes on one Linux VPS. Each of them should use different P2P and RCP ports, as well as various data dirs. To install the second and subsequent Masternode on the same server, you need manual install and configure it.*
 
 ### Coin Specs
 <table>
@@ -31,10 +28,10 @@ If you want to compile the wallet yourself, all the necessary documentation is i
 <tr><td>RCP port</td><td>42108</td></tr>
 <tr><td>Rewards Distribution</td><td>30/70 (PoS/MN)</td></tr>
 <tr><td>Masternode Collateral</td><td>1000 BMTP</td></tr>
-<tr><td>Premine</td><td>300,000 BMTP*</td></tr>
+<tr><td>Premine</td><td>250,000 BMTP*</td></tr>
 </table>
 
-### Reward Distribution
+### Reward depending on the Block Height
 
 <table>
 <tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
