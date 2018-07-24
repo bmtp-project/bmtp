@@ -23,7 +23,6 @@ We recommend using a special script to install the Masternode. [Install MN scrip
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
-<tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Type</td><td>PoS/MN</td></tr>
 <tr><td>P2P port</td><td>42107</td></tr>
 <tr><td>RCP port</td><td>42108</td></tr>
