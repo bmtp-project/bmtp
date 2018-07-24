@@ -25,7 +25,7 @@ frequently tested on them.
 
 
 
-2.3.0 Change log
+1.0.0 Change log
 =================
 
 This is the first release
