@@ -17,8 +17,6 @@ If you want to compile the wallet yourself, all the necessary documentation is i
 
 We recommend using a special script to install the Masternode. [Install MN script](https://github.com/bmtp-project/bmtp-install)
 
-**Note**: *You can use several Masternodes on one Linux VPS. Each of them should use different P2P and RCP ports, as well as various data dirs. To install the second and subsequent Masternode on the same server, you need to install and configure them yourself.*
-
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
